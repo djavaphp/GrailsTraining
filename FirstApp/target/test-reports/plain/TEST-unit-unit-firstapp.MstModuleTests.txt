@@ -1,0 +1,16 @@
+Testsuite: firstapp.MstModuleTests
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.897 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+hello
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0.842 sec
+	FAILED
+java.lang.AssertionError: Implement me
+junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+	at firstapp.MstModuleTests.testSomething(MstModuleTests.groovy:25)
+

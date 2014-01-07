@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="CIPL-PC189" id="0" name="MstModuleTests" package="firstapp" tests="1" time="0.897" timestamp="2013-12-31T12:57:32">
+      <properties />
+
+      <testcase classname="firstapp.MstModuleTests" name="testSomething" time="0.844">
+          <failure message="java.lang.AssertionError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+	at firstapp.MstModuleTests.testSomething(MstModuleTests.groovy:25)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+hello
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
